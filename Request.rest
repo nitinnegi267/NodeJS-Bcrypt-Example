@@ -1,0 +1,24 @@
+ GET http://localhost:3000/aliens
+
+###
+
+ POST http://localhost:3000/aliens
+ Content-Type: application/json
+
+ {
+     "name" : "Kyle",
+     "password" : "password"
+ }
+
+###
+ 
+ POST http://localhost:3000/aliens/login
+ Content-Type: application/json
+
+ {
+     "name" : "Kyle",
+     "password" : "password"
+ }
+
+
+
